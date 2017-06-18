@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.sec-1{
+	background:linear-gradient(#5fb48d,#d78f72);
+	height:100vh;/* recordar darle una tamaño al contenedor para que */
+}
+
+.insta-logo{
+	padding-left:145px;
+	padding-top: 280px;
+}
+
