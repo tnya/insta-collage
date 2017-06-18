@@ -1,1 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+}
 
+body{
+	margin: 0;
+	padding: 0;	
+	background: #353532; 
+}
+
+/* CANVAS PARA FOTOS */
+
+.frame {
+  height: 23vw;
+}
+
+.main-frame {
+  height: 46vw;
+}
+
+/* PHOTOBOOTH TEXT */
+
+.photobooth-text{
+	padding: 5% 0;
+	color: rgb(59, 89, 152);
+	font-size: 120%;
+	font-weight: bold;
+}
+
+/* PHOTOOBOTH */
+
+.col-xs-4 {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.row{
+	padding:5px;
+}
+
+.bigben{
+    height: 137px;
+}
+/* FOOTER */
+
+.foot{
+	background: transparent;
+	border: transparent;
+	color: white;
+}
+
+.foot.dropdown-toggle{
+	color: rgb(59, 89, 152)
+}
+
+.opt-color{
+	color:#7B7D89;
+	background-color:transparent;
+	border:none;
+}
+
+button.foot.btn.dropdown-toggle {
+    margin-left: -12px;
+}
