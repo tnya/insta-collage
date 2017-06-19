@@ -3,9 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Insta-College</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/js/main.js">
 </head>
 <body>
+	<!-- NAVBAR IDIOMAS -->
+	<section class="nav-bar" id="navbar">
+		<div class="container-fluid">
+			<div class="col-xs-offset-3 col-xs-3">
+				<div class="nav navbar-nav">
+					<div class="dropdown">
+						<button class="idiomas btn dropdown-toggle blanco" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>Idioma <span class="caret"></span></strong></button>
+						<ul class="dropdown-menu">
+							<li><a href="#" class="idiomas blanco">Idioma: español (España)</a></li>
+							<li><a href="#" class="idiomas blanco">Idioma: ingles (United Kingdom)</a></li>
+							<li><a href="#" class="idiomas blanco">Idioma: esperanto (?)</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="sec-1">
 		<div class="container">
 			<div class="row">
@@ -29,12 +51,50 @@
 							</div>
 						</div><!-- cierre col -->
 					</div><!-- cierre row -->
-
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sec-2" >
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<p class="blanco">¿Has olvidado tu información de inicio de sesión? <a href="#" class="blanco bold">Obten ayuda.</a></p>
+				</div>
+			</div>
+			<div class="row line">
+				<div class="col-xs-5 text-center linea">
+					<div class="line"></div>
+				</div>
+				<div class="col-xs-2 text-center">
+					<i class="fa fa-circle-o blanco" aria-hidden="true"></i>
+				</div>
+				<div class="col-xs-5 text-center linea">
+					<div class="line"></div>
+				</div>
+			</div>
+			<div class="row fb">
+				<div class="col-xs-12 text-center">
+					<button class="fb btn btn-block text-center">
+						<i class="fa fa-facebook-official blanco" aria-hidden="true"></i> <strong><span class="blanco">Iniciar sesión con Facebook</span></strong>
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FOOTER -->
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<p class="blanco">¿No tienes una cuenta? <strong><a href="#" class="blanco">Regístrate</a></strong></p>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
