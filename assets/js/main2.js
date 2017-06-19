@@ -9,7 +9,7 @@ function permitirDrop(event){
   event.preventDefault();
 }
 
-function drop(ev) {
+function drop(event) {
   event.preventDefault();
   var photo_id = event.dataTransfer.getData('text');
   event.target.appendChild(document.getElementById(photo_id));

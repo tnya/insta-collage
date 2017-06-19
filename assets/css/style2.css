@@ -11,12 +11,13 @@ body{
 
 /* CANVAS PARA FOTOS */
 
-.frame {
-  height: 23vw;
+.col-main{
+	padding:;
 }
 
 .main-frame {
-  height: 46vw;
+  height: 40vh;
+
 }
 
 /* PHOTOBOOTH TEXT */
@@ -30,7 +31,7 @@ body{
 
 /* PHOTOOBOTH */
 
-.col-xs-4 {
+.col-photos {
     padding-left: 6px;
     padding-right: 6px;
 }
